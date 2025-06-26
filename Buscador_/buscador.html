@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio--CineMate</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!--Encabezado -->
+        <nav class=" navbar">
+            <!--Logo-->
+            <div class="text-center mx-4 ">
+                <img 
+                    src="img/logo.png" 
+                    alt="Logo de CineMate" 
+                    width="75"
+                    class="rounded"
+                >
+                
+            </div>
+            <!--Perfil-->
+            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                <img 
+                    src="img/iconos/user--v1.png"
+                    alt="Perfil" 
+                    width ="30"
+                    class="rounded-circle"
+                >
+                <div class="fw-bold small">Perfil</div>
+            </div>
+        </nav>
+
+        <!-- Buscador -->
+        <div class="container my-3">
+            <div class="input-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Buscar...">
+                <button class="btn btn-outline-danger">🔍</button>
+                <button class="btn btn-outline-danger">✖</button>
+            </div>
+        </div>
+
+        <!-- Iconos de Género -->
+        <div class="container-fluid mb-4 p-3 ">
+            <div class="row">
+                <div class="d-flex md-5 text-center">
+
+                    <a href="generos.html" class="d-block">
+                        <img src="img/iconos/romance-y-amor.png" alt="Icono Romance" class="img-fluid rounded-circle w-25  btn btn-outline-danger">                                                  
+                    </a>
+                    
+                    <a href="generos.html" class="d-block">
+                        <img src="img/iconos/comedia.png" alt="Icono Comedia" class="img-fluid rounded-circle w-25 btn btn-outline-danger ">
+                    </a>
+
+                    <a href="generos.html" class="d-block">
+                        <img src="img/iconos/terrorista.png" alt="Icono Accion" class="img-fluid rounded-circle w-25 btn btn-outline-danger">
+                    </a>
+
+                    <a href="generos.html" class="d-block">
+                        <img src="img/iconos/fantasma.png" alt="Icono Terro" class="img-fluid rounded-circle w-25 btn btn-outline-warning">
+                    </a>
+
+                    <a href="generos.html" class="d-block">
+                        <img src="img/iconos/aventuras.png" alt="Icono Aventura" class="img-fluid rounded-circle w-25 btn btn-outline-warning">
+                    </a>
+
+                    <a href="generos.html" class="d-block">
+                        <img src="img/iconos/fantasia.png" alt="Icono fantasia" class="img-fluid rounded-circle w-25 btn btn-outline-warning">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Galería de Películas -->
+        <div class="container mb-5 ">
+
+            <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 row-cols-lg-6 ">
+                <div class="col pb-3 text-center">
+                    <img 
+                        src="img/bajolamismaestrella.jpg" 
+                        alt="Bajo La Misma Estrella"
+                        class="img-fluid rounded peliculas" 
+                        data-titulo="Bajo La Misma Estrella"
+                        data-descripcion="Hazel y Augustus se conocen en un grupo de apoyo para jóvenes con cáncer. Lo que empieza como una amistad tímida se convierte en una historia de amor profunda, intensa y conmovedora. Juntos se embarcan en un viaje que cambiará sus vidas para siempre, desafiando el dolor con humor, valentía y mucho corazón.."
+                    >
+                </div>
+
+                <div class="col text-center">
+                    <img 
+                        src="img/pixeles.jpg" 
+                        alt="Pixeles"
+                        class="img-fluid rounded peliculas"
+                        data-titulo="Pixeles"
+                        data-descripcion="Cuando unos alienígenas malinterpretan las señales de videojuegos clásicos como una amenaza, atacan la Tierra usando versiones gigantes de Pac-Man, Donkey Kong y más. Ahora, un grupo de gamers retirados deberá salvar al mundo… ¡jugando! Una aventura divertida, llena de nostalgia ochentosa y efectos espectaculares."
+                    >
+                </div>
+
+                <div class="col text-center pb-3">
+                    <img 
+                        src="img/antesdeti.jpg" 
+                        alt="Antes De Ti"
+                        class="img-fluid rounded peliculas"
+                        data-titulo="Antes De Ti"
+                        data-descripcion="Louisa, una chica alegre y sin rumbo claro, consigue trabajo cuidando a Will, un joven exitoso que quedó en silla de ruedas tras un accidente. Aunque al principio chocan, poco a poco nace entre ellos una conexión única. Juntos descubrirán que incluso en el dolor puede florecer el amor… y cambiar una vida para siempre."
+                    >
+                </div>
+
+                <div class="col text-center">
+                    <img 
+                        src="img/viajealcentrodelatierra.jpg" 
+                        alt="Viaje Al Centro De La Tierra"
+                        class="img-fluid rounded peliculas"
+                        data-titulo="Viaje Al Centro De La Tierra"
+                        data-descripcion="Cuando un excéntrico científico y su sobrino siguen las pistas de un antiguo libro, se embarcan en una expedición que los lleva a un mundo oculto bajo la superficie del planeta. Criaturas increíbles, paisajes imposibles y peligros inesperados los esperan en esta aventura épica inspirada en la novela de Julio Verne."
+                    >
+                </div>
+
+                <div class="col text-center">
+                    <img 
+                        src="img/lucy.jpg" 
+                        alt="Lucy"
+                        class="img-fluid rounded peliculas"
+                        data-titulo="Lucy"
+                        data-descripcion="Lucy, una joven atrapada en un negocio de tráfico de drogas, se convierte accidentalmente en una súper humana al absorber una sustancia experimental. A medida que su capacidad cerebral aumenta, desarrolla habilidades físicas y mentales extraordinarias… pero el tiempo corre, y su evolución no tiene vuelta atrás."
+                    >
+                </div>
+
+                <div class="col text-center">
+                    <img 
+                        src="img/avatar.jpg"
+                        alt="Avatar"
+                        class="img-fluid rounded peliculas"
+                        data-titulo="Avatar"
+                        data-descripcion="En el mundo de Pandora, un exmarine paralítico recibe una segunda oportunidad al controlar un cuerpo avatar. Allí descubrirá una cultura fascinante y una lucha por defender su tierra. Lo que empieza como una misión militar, se transforma en una conexión profunda con la naturaleza, el amor y la resistencia."
+                    >
+                </div>
+
+                <div class="col text-center">
+                    <img 
+                        src="img/titanic.jpg" 
+                        alt="Titanic"
+                        class="img-fluid rounded peliculas"
+                        data-titulo="Titanic"
+                        data-descripcion="A bordo del lujoso Titanic, Rose, una joven aristócrata, conoce a Jack, un artista sin recursos. Su historia de amor inesperada florece entre clases sociales y tragedia, mientras el barco se dirige hacia su destino fatal. Un romance inolvidable marcado por la belleza, el drama y la historia."
+                    >
+                </div>
+
+                <div class="col text-center">
+                    <img 
+                        src="img/coco.jpg"  
+                        alt="Coco"
+                        class="img-fluid rounded peliculas"
+                        data-titulo="Coco"
+                        data-descripcion="Miguel, un niño con el sueño de ser músico, se embarca en una aventura mágica en la Tierra de los Muertos. Allí descubre secretos familiares, la importancia de la memoria y el verdadero significado de seguir tu pasión sin olvidar tus raíces."
+                    >
+                </div>
+
+                <div class="col text-center">
+                    <img 
+                        src="img/johnwick.jpg" 
+                        alt="John Wick"
+                        class="img-fluid rounded peliculas"
+                        data-titulo="John Wick"
+                        data-descripcion="Después de perder a su esposa y sufrir una traición devastadora, John Wick, un exasesino legendario, regresa del retiro para desatar una venganza imparable. Con estilo, precisión y furia, nadie está a salvo cuando vuelve al juego."
+                    >
+                </div>
+
+                <div class="col text-center">
+                    <img 
+                        src="img/kingkong.jpg"
+                        alt="king kong"
+                        class="img-fluid rounded peliculas"
+                        data-titulo="king kong"
+                        data-descripcion="Un grupo de exploradores viaja a una isla misteriosa y encuentra a Kong, un gigantesco gorila que protege su territorio. Pero cuando intentan llevarlo a la civilización, desatan una tragedia. Una historia de poder, belleza y la bestia más famosa del cine."
+                    >
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalPelicula" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content bg-danger text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitulo">Título</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="modalDescripcion">
+                    Descripción...
+                </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        <script src="/js/script.js"></script>
+    </body>
+</html>
